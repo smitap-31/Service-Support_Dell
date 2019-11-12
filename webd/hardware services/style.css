@@ -1,0 +1,9 @@
+/*-----------------Tools-----------------*/
+.horizontal-line { background: url(horizontal-line.png) no-repeat; width: 950px; height: 10px; }
+.vertical-line { float: left; background: url(vertical-line.png) no-repeat; width: 4px; height: 385px; }
+
+/*-----------------GENERAL STYLES-----------------*/
+body { background: url(images/main-bg.gif) repeat-x; font-family: arial; }
+#wrap{ width: 960px; margin:0 auto; }
+#header{height: 130px;}
+#header h1{float: left; width: 347px;height:66px;text-indent:-9999px;margin:38px 0 0;}

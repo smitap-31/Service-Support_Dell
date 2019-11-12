@@ -1,0 +1,391 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_004{font-family:Arial,serif;font-size:30.1px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:30.1px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:19.6px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:19.6px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:16.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:16.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:8.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:8.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:17.1px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:17.1px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:14.1px;color:rgb(0,98,146);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:14.1px;color:rgb(0,98,146);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(37,37,37);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:14.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:14.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:12.1px;color:rgb(0,98,146);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:12.1px;color:rgb(0,98,146);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:11.1px;color:rgb(0,98,146);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:11.1px;color:rgb(0,98,146);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:7.0px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:7.0px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:10.0px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:10.0px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:11.1px;color:rgb(111,47,159);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:11.1px;color:rgb(111,47,159);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:10.6px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:10.6px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:12.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:12.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:"Cambria Math",serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_030{font-family:"Cambria Math",serif;font-size:11.1px;color:rgb(37,37,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,133,195);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,255);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_034{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_035{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background01.jpg" width=612 height=792></div>
+<div style="position:absolute;left:74.54px;top:229.49px" class="cls_004"><span class="cls_004">Dell</span><span class="cls_005"><sup>™</sup></span><span class="cls_004"> Multivendor</span></div>
+<div style="position:absolute;left:72.02px;top:269.69px" class="cls_004"><span class="cls_004">Hardware Support</span></div>
+<div style="position:absolute;left:72.02px;top:316.13px" class="cls_006"><span class="cls_006">Reducing vendor complexity to unleash business innovation</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">1 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background02.jpg" width=612 height=792></div>
+<div style="position:absolute;left:74.54px;top:102.74px" class="cls_004"><span class="cls_004">Dell</span><span class="cls_013"><sup>™</sup></span><span class="cls_004"> Multivendor</span></div>
+<div style="position:absolute;left:72.02px;top:138.86px" class="cls_004"><span class="cls_004">Hardware Support</span></div>
+<div style="position:absolute;left:72.02px;top:185.30px" class="cls_006"><span class="cls_006">Reducing vendor complexity to unleash business innovation</span></div>
+<div style="position:absolute;left:72.02px;top:217.46px" class="cls_014"><span class="cls_014">Executive Summary</span></div>
+<div style="position:absolute;left:533.38px;top:217.46px" class="cls_014"><span class="cls_014">3</span></div>
+<div style="position:absolute;left:72.02px;top:237.65px" class="cls_014"><span class="cls_014">Dell™ Multivendor Hardware Support</span></div>
+<div style="position:absolute;left:533.02px;top:237.65px" class="cls_014"><span class="cls_014">4</span></div>
+<div style="position:absolute;left:72.02px;top:257.93px" class="cls_014"><span class="cls_014">Simplicity</span></div>
+<div style="position:absolute;left:533.02px;top:257.93px" class="cls_014"><span class="cls_014">4</span></div>
+<div style="position:absolute;left:72.02px;top:278.09px" class="cls_014"><span class="cls_014">Efficiency</span></div>
+<div style="position:absolute;left:533.50px;top:278.09px" class="cls_014"><span class="cls_014">5</span></div>
+<div style="position:absolute;left:72.02px;top:298.25px" class="cls_014"><span class="cls_014">Value</span></div>
+<div style="position:absolute;left:533.02px;top:298.25px" class="cls_014"><span class="cls_014">6</span></div>
+<div style="position:absolute;left:72.02px;top:318.41px" class="cls_014"><span class="cls_014">Desktop to Data Center</span></div>
+<div style="position:absolute;left:533.02px;top:318.41px" class="cls_014"><span class="cls_014">6</span></div>
+<div style="position:absolute;left:72.02px;top:338.57px" class="cls_014"><span class="cls_014">Services to fit your business</span></div>
+<div style="position:absolute;left:533.86px;top:338.57px" class="cls_014"><span class="cls_014">7</span></div>
+<div style="position:absolute;left:72.02px;top:358.73px" class="cls_014"><span class="cls_014">PCs in the blood. Services in our DNA</span></div>
+<div style="position:absolute;left:533.86px;top:358.73px" class="cls_014"><span class="cls_014">7</span></div>
+<div style="position:absolute;left:72.02px;top:378.89px" class="cls_014"><span class="cls_014">Maturity</span></div>
+<div style="position:absolute;left:533.02px;top:378.89px" class="cls_014"><span class="cls_014">8</span></div>
+<div style="position:absolute;left:72.02px;top:399.07px" class="cls_014"><span class="cls_014">Conclusion</span></div>
+<div style="position:absolute;left:533.14px;top:399.07px" class="cls_014"><span class="cls_014">9</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">2 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background03.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:103.22px" class="cls_015"><span class="cls_015">Executive Summary</span></div>
+<div style="position:absolute;left:72.02px;top:122.66px" class="cls_016"><span class="cls_016">The longer you run a business, the more complex supporting your technology infrastructure</span></div>
+<div style="position:absolute;left:72.02px;top:135.86px" class="cls_016"><span class="cls_016">becomes. Over time, more than likely you have plugged “vendor A’s” systems into “provider</span></div>
+<div style="position:absolute;left:72.02px;top:149.06px" class="cls_016"><span class="cls_016">B’s” solutions because that was the best resolution to the problem at hand.</span></div>
+<div style="position:absolute;left:72.02px;top:175.46px" class="cls_016"><span class="cls_016">Now, you reach a point in business where you need to take measures that help you grow and</span></div>
+<div style="position:absolute;left:72.02px;top:188.66px" class="cls_016"><span class="cls_016">expand operations. You end up spending too much time worrying about how to manage</span></div>
+<div style="position:absolute;left:72.02px;top:201.86px" class="cls_016"><span class="cls_016">multiple vendors, the many service and support contracts, and a disarray of dissimilar</span></div>
+<div style="position:absolute;left:72.02px;top:215.06px" class="cls_016"><span class="cls_016">technology that runs your business. Just keeping up with who supports what hardware has</span></div>
+<div style="position:absolute;left:72.02px;top:228.26px" class="cls_016"><span class="cls_016">become complex.  And with already too few resources, simple maintenance ends up</span></div>
+<div style="position:absolute;left:72.02px;top:241.49px" class="cls_016"><span class="cls_016">demanding more time than you can afford.</span></div>
+<div style="position:absolute;left:72.02px;top:267.77px" class="cls_016"><span class="cls_016">Ideally, you want a contractor who watches over all these moving parts for you, one that will</span></div>
+<div style="position:absolute;left:72.02px;top:280.97px" class="cls_016"><span class="cls_016">take care of your entire technology infrastructure. All with a single phone call. That gives you</span></div>
+<div style="position:absolute;left:72.02px;top:294.17px" class="cls_016"><span class="cls_016">a single point of accountability. So you can focus internal resources on business innovation</span></div>
+<div style="position:absolute;left:72.02px;top:307.37px" class="cls_016"><span class="cls_016">instead of daily maintenance.</span></div>
+<div style="position:absolute;left:72.02px;top:333.77px" class="cls_016"><span class="cls_016">Dell Multivendor Hardware Support frees you from the complexity of managing multiple</span></div>
+<div style="position:absolute;left:72.02px;top:346.97px" class="cls_016"><span class="cls_016">vendor contracts. As your single point of contact, Dell helps you take the complexity out of</span></div>
+<div style="position:absolute;left:72.02px;top:360.17px" class="cls_016"><span class="cls_016">your existing technology infrastructure so you can focus on accelerating business. With</span></div>
+<div style="position:absolute;left:72.02px;top:373.37px" class="cls_016"><span class="cls_016">support that spans across your entire heterogeneous environment - from notebooks,</span></div>
+<div style="position:absolute;left:72.02px;top:386.57px" class="cls_016"><span class="cls_016">desktops, servers, storage or networking - you can consolidate services into a singular</span></div>
+<div style="position:absolute;left:72.02px;top:399.79px" class="cls_016"><span class="cls_016">contract so you can start saving time, improving the efficiency of your IT, so you have more</span></div>
+<div style="position:absolute;left:72.02px;top:412.99px" class="cls_016"><span class="cls_016">time for innovating.</span></div>
+<div style="position:absolute;left:72.02px;top:439.39px" class="cls_016"><span class="cls_016">As a provider and advisor with nearly 30 years of continued service, Dell has the expertise,</span></div>
+<div style="position:absolute;left:72.02px;top:452.59px" class="cls_016"><span class="cls_016">the global reach and the long-term commitment to delivering the quality of service you need</span></div>
+<div style="position:absolute;left:72.02px;top:465.79px" class="cls_016"><span class="cls_016">for your business infrastructure with</span></div>
+<div style="position:absolute;left:90.02px;top:479.71px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Consolidated, single point of contact</span><span class="cls_016"> that covers your business technology across</span></div>
+<div style="position:absolute;left:108.02px;top:492.91px" class="cls_016"><span class="cls_016">multiple vendor platforms from the desktop to the data center</span></div>
+<div style="position:absolute;left:90.02px;top:506.83px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Confidence of a trusted expert</span><span class="cls_016"> that is ready to help you around the clock and around</span></div>
+<div style="position:absolute;left:108.02px;top:520.03px" class="cls_016"><span class="cls_016">the globe with technical assistance from a single phone call</span></div>
+<div style="position:absolute;left:90.02px;top:533.95px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Easy choices</span><span class="cls_016"> so you can budget for support and service that you need now and target</span></div>
+<div style="position:absolute;left:108.02px;top:547.15px" class="cls_016"><span class="cls_016">technology investment where you need it the most over time</span></div>
+<div style="position:absolute;left:72.02px;top:573.58px" class="cls_016"><span class="cls_016">With Dell Multivendor Hardware Support, you can conquer IT complexity, helping you save</span></div>
+<div style="position:absolute;left:72.02px;top:586.78px" class="cls_016"><span class="cls_016">time and helping you realize the full power and the value of your technology investment.</span></div>
+<div style="position:absolute;left:72.02px;top:613.18px" class="cls_016"><span class="cls_016">Dell can help you take the next step so you can realize your growth potential. Consolidate,</span></div>
+<div style="position:absolute;left:72.02px;top:626.38px" class="cls_016"><span class="cls_016">coordinate, and streamline your IT support with a simplified, single vendor contract that</span></div>
+<div style="position:absolute;left:72.02px;top:639.58px" class="cls_016"><span class="cls_016">helps increase IT efficiency so you can you save time and money for business innovation.</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">3 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background04.jpg" width=612 height=792></div>
+<div style="position:absolute;left:75.02px;top:103.22px" class="cls_015"><span class="cls_015">Dell™ Multivendor Hardware Support</span></div>
+<div style="position:absolute;left:72.02px;top:122.66px" class="cls_008"><span class="cls_008">Reducing vendor complexity to unleash business innovation</span></div>
+<div style="position:absolute;left:264.77px;top:165.26px" class="cls_016"><span class="cls_016">Whether your business runs on a few PCs or a</span></div>
+<div style="position:absolute;left:264.77px;top:180.38px" class="cls_016"><span class="cls_016">sophisticated IT infrastructure, you probably have</span></div>
+<div style="position:absolute;left:264.77px;top:195.62px" class="cls_016"><span class="cls_016">invested in solutions from a variety of vendors to help</span></div>
+<div style="position:absolute;left:264.77px;top:210.74px" class="cls_016"><span class="cls_016">your business grow. Over time, managing multiple</span></div>
+<div style="position:absolute;left:264.77px;top:225.98px" class="cls_016"><span class="cls_016">support and service contracts in a heterogeneous</span></div>
+<div style="position:absolute;left:264.77px;top:241.13px" class="cls_016"><span class="cls_016">environment became complex and unwieldy. And as</span></div>
+<div style="position:absolute;left:264.77px;top:256.37px" class="cls_016"><span class="cls_016">new and proliferating technologies, diverse user</span></div>
+<div style="position:absolute;left:264.77px;top:271.49px" class="cls_016"><span class="cls_016">profiles, and expanding geographic needs drive up</span></div>
+<div style="position:absolute;left:264.77px;top:286.73px" class="cls_016"><span class="cls_016">complexity, you may not have the support bandwidth</span></div>
+<div style="position:absolute;left:264.77px;top:301.85px" class="cls_016"><span class="cls_016">or expertise required to address emerging issues.</span></div>
+<div style="position:absolute;left:72.02px;top:333.29px" class="cls_016"><span class="cls_016">Meanwhile, you are facing increasingly constrained budgets, attempting to keep your IT</span></div>
+<div style="position:absolute;left:72.02px;top:348.41px" class="cls_016"><span class="cls_016">environment healthy and operational with limited resources. Tracking multivendor warranties</span></div>
+<div style="position:absolute;left:72.02px;top:363.65px" class="cls_016"><span class="cls_016">and support agreements takes time, adding to the complexity and burden of maintenance</span></div>
+<div style="position:absolute;left:72.02px;top:378.77px" class="cls_016"><span class="cls_016">which can lead to increased costs. Consolidating service contracts to a single vendor allows</span></div>
+<div style="position:absolute;left:72.02px;top:394.03px" class="cls_016"><span class="cls_016">you to maximize your resources.</span></div>
+<div style="position:absolute;left:72.02px;top:424.27px" class="cls_016"><span class="cls_016">Total support management provided by Dell™ Multivendor Hardware Support can help you</span></div>
+<div style="position:absolute;left:72.02px;top:439.51px" class="cls_016"><span class="cls_016">not only cut costs and increase productivity across your IT organization, but also lessen the</span></div>
+<div style="position:absolute;left:72.02px;top:454.63px" class="cls_016"><span class="cls_016">burden on resources already managing too many day-to-day administrative tasks.</span></div>
+<div style="position:absolute;left:72.02px;top:484.99px" class="cls_016"><span class="cls_016">Dell Multivendor Hardware Support consolidates your support services contracts, simplifying</span></div>
+<div style="position:absolute;left:72.02px;top:500.23px" class="cls_016"><span class="cls_016">support for your mixed environment, ultimately saving you money, effort, and time:</span></div>
+<div style="position:absolute;left:90.02px;top:516.07px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Simplicity </span><span class="cls_016">- Consolidate your hardware support under one service contract. With a</span></div>
+<div style="position:absolute;left:108.02px;top:531.31px" class="cls_016"><span class="cls_016">single point of contact, you have one less worry, knowing you have one call to make</span></div>
+<div style="position:absolute;left:108.02px;top:546.43px" class="cls_016"><span class="cls_016">when you need help.</span></div>
+<div style="position:absolute;left:90.02px;top:562.42px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Efficiency </span><span class="cls_016">- Streamline processes for managing support contracts and tracking</span></div>
+<div style="position:absolute;left:108.02px;top:577.54px" class="cls_016"><span class="cls_016">renewals across multiple hardware vendors.</span></div>
+<div style="position:absolute;left:90.02px;top:593.50px" class="cls_017"><span class="cls_017"></span><span class="cls_016"> </span><span class="cls_018">  Value</span><span class="cls_016"> - Avoid unnecessary operating costs by efficiently managing expiring</span></div>
+<div style="position:absolute;left:108.02px;top:608.62px" class="cls_016"><span class="cls_016">warranties and supporting hardware beyond three years.</span></div>
+<div style="position:absolute;left:72.02px;top:647.62px" class="cls_015"><span class="cls_015">Simplicity</span></div>
+<div style="position:absolute;left:72.02px;top:667.18px" class="cls_016"><span class="cls_016">To ensure that your IT is enabling growth and innovation, you need to deliver exceptional IT</span></div>
+<div style="position:absolute;left:72.02px;top:682.30px" class="cls_016"><span class="cls_016">service while minimizing effort.  It’s challenging to do this when complexity is increasing -</span></div>
+<div style="position:absolute;left:72.02px;top:697.42px" class="cls_016"><span class="cls_016">new technologies, user profiles and geographies.  In addition, there is often a breakdown in</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">4 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background05.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:103.46px" class="cls_016"><span class="cls_016">vendor support processes. You now have to navigate through varied processes and faceless</span></div>
+<div style="position:absolute;left:72.02px;top:118.58px" class="cls_016"><span class="cls_016">tools. Hardware and software issues go unaddressed—contributing to increasing incidents</span></div>
+<div style="position:absolute;left:72.02px;top:133.82px" class="cls_016"><span class="cls_016">and escalations.</span></div>
+<div style="position:absolute;left:72.02px;top:164.18px" class="cls_016"><span class="cls_016">With Multivendor Hardware Support, Dell can help you conquer complexity rather than being</span></div>
+<div style="position:absolute;left:72.02px;top:179.30px" class="cls_016"><span class="cls_016">conquered by it. You can free time from managing multiple vendors and gain the ability to</span></div>
+<div style="position:absolute;left:72.02px;top:194.54px" class="cls_016"><span class="cls_016">integrate new technologies that help your business thrive.</span></div>
+<div style="position:absolute;left:90.02px;top:224.90px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:224.90px" class="cls_018"><span class="cls_018">Single point of contact - </span><span class="cls_016">Spend your office hours tracking business progress, instead</span></div>
+<div style="position:absolute;left:108.02px;top:240.05px" class="cls_016"><span class="cls_016">of chasing down vendors for support. With a single contract, you can get the right</span></div>
+<div style="position:absolute;left:108.02px;top:255.17px" class="cls_016"><span class="cls_016">service for your laptops, desktops, -, servers and more. That’s one less phone call you</span></div>
+<div style="position:absolute;left:108.02px;top:270.41px" class="cls_016"><span class="cls_016">have to make.</span></div>
+<div style="position:absolute;left:90.02px;top:285.53px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:285.53px" class="cls_018"><span class="cls_018">Global reach - </span><span class="cls_016">Get the peace of mind from knowing that Dell has the resources</span></div>
+<div style="position:absolute;left:108.02px;top:300.77px" class="cls_016"><span class="cls_016">ready and available when and where you need them.  And with Dell’s high level of</span></div>
+<div style="position:absolute;left:108.02px;top:315.89px" class="cls_016"><span class="cls_016">expertise, you’ll have the support personnel you need to extend and enhance your</span></div>
+<div style="position:absolute;left:108.02px;top:331.13px" class="cls_016"><span class="cls_016">support capabilities.</span></div>
+<div style="position:absolute;left:90.02px;top:346.25px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:346.25px" class="cls_018"><span class="cls_018">Proven process </span><span class="cls_016">- With consolidated support contracts across your mixed</span></div>
+<div style="position:absolute;left:108.02px;top:361.49px" class="cls_016"><span class="cls_016">environment and a single point of accountability, Dell helps ensure your support</span></div>
+<div style="position:absolute;left:108.02px;top:376.61px" class="cls_016"><span class="cls_016">experience is seamless, consistent and easy. You'll have a reliable service partner</span></div>
+<div style="position:absolute;left:108.02px;top:391.85px" class="cls_016"><span class="cls_016">supporting your issues, instead of a mix of vendors whose engagement, insight into</span></div>
+<div style="position:absolute;left:108.02px;top:406.99px" class="cls_016"><span class="cls_016">your problems, and reliability may not be coordinated.</span></div>
+<div style="position:absolute;left:72.02px;top:473.23px" class="cls_015"><span class="cls_015">Efficiency</span></div>
+<div style="position:absolute;left:72.02px;top:492.79px" class="cls_016"><span class="cls_016">Maintaining a stable IT environment, managing day to day operations and resolving incidents</span></div>
+<div style="position:absolute;left:72.02px;top:507.91px" class="cls_016"><span class="cls_016">can consume your time and resources. Downtime is not an option: the clock starts ticking</span></div>
+<div style="position:absolute;left:72.02px;top:523.03px" class="cls_016"><span class="cls_016">and every minute in lost productivity impacts your business.  It quickly turns into escalations,</span></div>
+<div style="position:absolute;left:72.02px;top:538.27px" class="cls_016"><span class="cls_016">draining stressed resources away from proactive planning and management tasks.</span></div>
+<div style="position:absolute;left:72.02px;top:568.66px" class="cls_016"><span class="cls_016">With Dell as your single point of contact, you gain visibility into the health of your</span></div>
+<div style="position:absolute;left:72.02px;top:583.78px" class="cls_016"><span class="cls_016">environment as well as the confidence they can resolve incidents, quickly .</span></div>
+<div style="position:absolute;left:90.02px;top:599.02px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:599.02px" class="cls_018"><span class="cls_018">Consolidate resolution </span><span class="cls_016">-</span><span class="cls_018"> </span><span class="cls_016">One contract, one call. When issues arise, you know that</span></div>
+<div style="position:absolute;left:108.02px;top:614.14px" class="cls_016"><span class="cls_016">Dell is ready and available to support your infrastructure.</span></div>
+<div style="position:absolute;left:90.02px;top:629.38px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:629.38px" class="cls_018"><span class="cls_018">Reduce downtime</span><span class="cls_016"> - The Dell team of support experts owns case resolution across</span></div>
+<div style="position:absolute;left:108.02px;top:644.50px" class="cls_016"><span class="cls_016">your multivendor environment, helping you resume operations quickly.</span></div>
+<div style="position:absolute;left:90.02px;top:659.74px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:659.74px" class="cls_018"><span class="cls_018">Assess IT health </span><span class="cls_016">-</span><span class="cls_018"> </span><span class="cls_016">As your single support vendor, Dell can help you examine the</span></div>
+<div style="position:absolute;left:108.02px;top:674.86px" class="cls_016"><span class="cls_016">health of your IT environment, identifying and reducing risks. With add-on services</span></div>
+<div style="position:absolute;left:108.02px;top:690.10px" class="cls_016"><span class="cls_016">such as IT Advisory Services, you get environmental reporting and remote advisory</span></div>
+<div style="position:absolute;left:108.02px;top:705.22px" class="cls_016"><span class="cls_016">capabilities that identify issues that can put IT stability at risk.</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">5 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background06.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:140.42px" class="cls_015"><span class="cls_015">Value</span></div>
+<div style="position:absolute;left:72.02px;top:159.86px" class="cls_016"><span class="cls_016">To make your IT organization a strategic and innovative partner in your business, you need to</span></div>
+<div style="position:absolute;left:72.02px;top:173.06px" class="cls_016"><span class="cls_016">make the most of your limited support dollars. But with constrained budgets, and limited</span></div>
+<div style="position:absolute;left:72.02px;top:186.26px" class="cls_016"><span class="cls_016">resources and tools, you may end up spending too much on support services to multiple</span></div>
+<div style="position:absolute;left:72.02px;top:199.46px" class="cls_016"><span class="cls_016">vendors. Your overall IT budget could get tied up in maintenance activities instead of funding</span></div>
+<div style="position:absolute;left:72.02px;top:212.66px" class="cls_016"><span class="cls_016">strategic and innovative IT initiatives.</span></div>
+<div style="position:absolute;left:72.02px;top:239.09px" class="cls_016"><span class="cls_016">With Dell Multivendor Hardware Support, you can consolidate your support contracts to a</span></div>
+<div style="position:absolute;left:72.02px;top:252.29px" class="cls_016"><span class="cls_016">single vendor contract, helping to drive down unnecessary costs.</span></div>
+<div style="position:absolute;left:90.02px;top:278.69px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:278.69px" class="cls_018"><span class="cls_018">Manage warranties </span><span class="cls_016">- You can realize cost savings with a single contract. IT resources</span></div>
+<div style="position:absolute;left:108.02px;top:293.93px" class="cls_016"><span class="cls_016">focus time on innovating instead of chasing multiple vendor and service contracts,</span></div>
+<div style="position:absolute;left:108.02px;top:309.05px" class="cls_016"><span class="cls_016">tracking warranty renewal dates for each contract, and managing different points of</span></div>
+<div style="position:absolute;left:108.02px;top:324.29px" class="cls_016"><span class="cls_016">contact for various vendors and systems.</span></div>
+<div style="position:absolute;left:90.02px;top:339.41px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:339.41px" class="cls_018"><span class="cls_018">Extend support </span><span class="cls_016">- When you purchase Multivendor Hardware Support, technicians</span></div>
+<div style="position:absolute;left:108.02px;top:354.65px" class="cls_016"><span class="cls_016">work with you directly to provide parts and labor as needed without contacting the</span></div>
+<div style="position:absolute;left:108.02px;top:369.77px" class="cls_016"><span class="cls_016">OEM.</span></div>
+<div style="position:absolute;left:90.02px;top:385.01px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:385.01px" class="cls_018"><span class="cls_018">Plan budgets</span><span class="cls_016"> - Dell Multivendor Hardware Support helps you plan support service</span></div>
+<div style="position:absolute;left:108.02px;top:400.15px" class="cls_016"><span class="cls_016">extensions so you can budget your IT costs effectively.</span></div>
+<div style="position:absolute;left:72.02px;top:555.94px" class="cls_015"><span class="cls_015">Desktop to Data Center</span></div>
+<div style="position:absolute;left:72.02px;top:575.38px" class="cls_020"><span class="cls_020">If it’s a PC, we’ll service it. An OS, we’ll support it. A growing business, we’ll enable it.</span></div>
+<div style="position:absolute;left:72.02px;top:591.94px" class="cls_016"><span class="cls_016">Dell Multivendor Hardware Support begins with the user in the office or the field and</span></div>
+<div style="position:absolute;left:72.02px;top:605.14px" class="cls_016"><span class="cls_016">continues throughout your entire business technology infrastructure. Whether you have a</span></div>
+<div style="position:absolute;left:72.02px;top:618.34px" class="cls_016"><span class="cls_016">few PCs and laptops or an existing infrastructure complete with Dell or other vendor</span></div>
+<div style="position:absolute;left:72.02px;top:631.54px" class="cls_016"><span class="cls_016">systems, Dell can design a single multivendor support contract for your business.</span></div>
+<div style="position:absolute;left:72.02px;top:657.94px" class="cls_016"><span class="cls_016">Technical support services on non-Dell assets (notebooks, desktops, servers, storage and</span></div>
+<div style="position:absolute;left:72.02px;top:671.14px" class="cls_016"><span class="cls_016">networking) are available via Dell ProSupport™. Some features include:</span></div>
+<div style="position:absolute;left:72.02px;top:697.18px" class="cls_022"><span class="cls_022">Single point of contact</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">6 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background07.jpg" width=612 height=792></div>
+<div style="position:absolute;left:90.02px;top:103.34px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:103.34px" class="cls_016"><span class="cls_016">Single contract covers notebooks, desktops, and servers</span></div>
+<div style="position:absolute;left:90.02px;top:116.54px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:116.54px" class="cls_016"><span class="cls_016">Global coverage of multiple vendors</span></div>
+<div style="position:absolute;left:90.02px;top:129.74px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:129.74px" class="cls_016"><span class="cls_016">Covers in and out of warranty systems</span></div>
+<div style="position:absolute;left:90.02px;top:142.94px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:142.94px" class="cls_016"><span class="cls_016">Case and escalation management</span></div>
+<div style="position:absolute;left:90.02px;top:156.14px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:156.14px" class="cls_016"><span class="cls_016">Collaborative software support with Dell ProSupport™</span></div>
+<div style="position:absolute;left:90.02px;top:169.34px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:169.34px" class="cls_016"><span class="cls_016">Single phone number for Dell and non-Dell systems</span></div>
+<div style="position:absolute;left:72.02px;top:197.78px" class="cls_022"><span class="cls_022">Trusted expertise</span></div>
+<div style="position:absolute;left:90.02px;top:212.90px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:212.90px" class="cls_016"><span class="cls_016">With Dell ProSupport™ , you can get 24/7/365 phone access to advanced</span></div>
+<div style="position:absolute;left:108.02px;top:226.10px" class="cls_016"><span class="cls_016">technicians*</span></div>
+<div style="position:absolute;left:90.02px;top:239.33px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:239.33px" class="cls_016"><span class="cls_016">Global Command Centers</span></div>
+<div style="position:absolute;left:90.02px;top:252.41px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:252.41px" class="cls_016"><span class="cls_016">Dell ProSupport™  provides</span></div>
+<div style="position:absolute;left:108.02px;top:265.61px" class="cls_016"><span class="cls_016">you with frequent reports of</span></div>
+<div style="position:absolute;left:108.02px;top:278.81px" class="cls_016"><span class="cls_016">their support activities</span></div>
+<div style="position:absolute;left:72.02px;top:305.33px" class="cls_022"><span class="cls_022">Simple to choose & buy</span></div>
+<div style="position:absolute;left:90.02px;top:320.45px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:320.45px" class="cls_016"><span class="cls_016">Choice between Basic & Dell</span></div>
+<div style="position:absolute;left:108.02px;top:333.65px" class="cls_016"><span class="cls_016">ProSupport™</span></div>
+<div style="position:absolute;left:90.02px;top:346.85px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:108.02px;top:346.85px" class="cls_016"><span class="cls_016">Length of contract from 1 to 4</span></div>
+<div style="position:absolute;left:108.02px;top:360.05px" class="cls_016"><span class="cls_016">years</span></div>
+<div style="position:absolute;left:72.02px;top:431.23px" class="cls_023"><span class="cls_023">1 For copy of Ltd Hardware Warranty, write Dell USA LP, Attn: Warranties, One Dell Way, Round Rock, TX 78682 or see </span><A HREF="http://www.dell.com/warranty">www.dell.com/warranty</A> </div>
+<div style="position:absolute;left:72.02px;top:440.95px" class="cls_023"><span class="cls_023">2 Availability and terms of Dell Services vary by region. For more information, visit </span><A HREF="http://www.dell.com/servicedescriptions/">www.dell.com/servicedescriptions</A> </div>
+<div style="position:absolute;left:72.02px;top:474.07px" class="cls_015"><span class="cls_015">Services to fit your business</span></div>
+<div style="position:absolute;left:72.02px;top:493.51px" class="cls_016"><span class="cls_016">Dell Multivendor Hardware Support can adapt to a wide variety of business environments</span></div>
+<div style="position:absolute;left:72.02px;top:506.71px" class="cls_016"><span class="cls_016">so you can customize your support needs and begin standardizing your IT support</span></div>
+<div style="position:absolute;left:72.02px;top:519.91px" class="cls_016"><span class="cls_016">environment with a single service agreement. Dell offers additional complementary services</span></div>
+<div style="position:absolute;left:72.02px;top:533.11px" class="cls_016"><span class="cls_016">for your multivendor environment including Software Support</span></div>
+<div style="position:absolute;left:72.02px;top:546.31px" class="cls_016"><span class="cls_016">and IT Advisory Services.</span></div>
+<div style="position:absolute;left:72.02px;top:572.86px" class="cls_022"><span class="cls_022">Software Support</span></div>
+<div style="position:absolute;left:72.02px;top:587.86px" class="cls_016"><span class="cls_016">Simplify the management of resources and administrative tasks associated with supporting</span></div>
+<div style="position:absolute;left:72.02px;top:601.06px" class="cls_016"><span class="cls_016">applications across your environment.*</span></div>
+<div style="position:absolute;left:90.02px;top:614.98px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Ability to purchase non-installed software through Dell and have Dell own the support</span></div>
+<div style="position:absolute;left:108.02px;top:628.18px" class="cls_016"><span class="cls_016">call through resolution.</span></div>
+<div style="position:absolute;left:90.02px;top:642.10px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Consolidation of support contracts.</span></div>
+<div style="position:absolute;left:72.02px;top:668.62px" class="cls_024"><span class="cls_024">*Available for select vendors</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">7 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:5614px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background08.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:103.46px" class="cls_022"><span class="cls_022">IT Advisory Services</span></div>
+<div style="position:absolute;left:72.02px;top:118.46px" class="cls_016"><span class="cls_016">More than just break-fix, support is about preventing problems so you can anticipate, identify</span></div>
+<div style="position:absolute;left:72.02px;top:131.66px" class="cls_016"><span class="cls_016">and correct issues before they occur. Two packages — Essential and Strategic — to suit your</span></div>
+<div style="position:absolute;left:72.02px;top:144.86px" class="cls_016"><span class="cls_016">unique needs, provides features and functionality focused on reducing downtime and</span></div>
+<div style="position:absolute;left:72.02px;top:158.06px" class="cls_016"><span class="cls_016">helping you optimize your IT environment.</span></div>
+<div style="position:absolute;left:90.02px;top:171.98px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Reporting, analysis and planning, including multivendor assets.</span></div>
+<div style="position:absolute;left:90.02px;top:185.90px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Essential Package is a more compact feature set, still delivering proactive reporting</span></div>
+<div style="position:absolute;left:108.02px;top:199.10px" class="cls_016"><span class="cls_016">and analytics.</span></div>
+<div style="position:absolute;left:90.02px;top:213.02px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Strategic Package provides features such as Remote Advisory Service and Proactive</span></div>
+<div style="position:absolute;left:108.02px;top:226.22px" class="cls_016"><span class="cls_016">Maintenance.</span></div>
+<div style="position:absolute;left:72.02px;top:276.05px" class="cls_015"><span class="cls_015">PCs in the blood. Services in our DNA.</span></div>
+<div style="position:absolute;left:72.02px;top:295.61px" class="cls_016"><span class="cls_016">When choosing a multivendor support provider, you should be sure that the vendor is fully</span></div>
+<div style="position:absolute;left:72.02px;top:310.85px" class="cls_016"><span class="cls_016">vested in your successful outcome, helping you anticipate technical issues before they</span></div>
+<div style="position:absolute;left:72.02px;top:325.97px" class="cls_016"><span class="cls_016">emerge, </span><span class="cls_018">replacing escalations with customer satisfaction.</span></div>
+<div style="position:absolute;left:72.02px;top:356.21px" class="cls_016"><span class="cls_016">With 24x7x365 service options, Dell ranked #1 for onsite response time*, providing support</span></div>
+<div style="position:absolute;left:72.02px;top:369.41px" class="cls_016"><span class="cls_016">for over 100 countries from 5 global command centers with access to over 30,000</span></div>
+<div style="position:absolute;left:72.02px;top:382.61px" class="cls_016"><span class="cls_016">technicians.</span></div>
+<div style="position:absolute;left:72.02px;top:409.03px" class="cls_016"><span class="cls_016">*</span><span class="cls_025"> </span><span class="cls_026">Based on March 2011 TBR Report “Service & Support Customer Satisfaction | Fourth Calendar</span></div>
+<div style="position:absolute;left:72.02px;top:421.75px" class="cls_026"><span class="cls_026">Quarter 2010</span></div>
+<div style="position:absolute;left:72.02px;top:448.03px" class="cls_016"><span class="cls_016">As a result, Dell has achieved high customer satisfaction ratings and has held top ranking for</span></div>
+<div style="position:absolute;left:72.02px;top:461.23px" class="cls_016"><span class="cls_016">IT service and support customer satisfaction. This is just the beginning as Dell continues to</span></div>
+<div style="position:absolute;left:72.02px;top:474.43px" class="cls_016"><span class="cls_016">grow its expertise</span></div>
+<div style="position:absolute;left:72.02px;top:526.15px" class="cls_015"><span class="cls_015">Maturity</span></div>
+<div style="position:absolute;left:72.02px;top:545.59px" class="cls_016"><span class="cls_016">Entrusting a support vendor with</span></div>
+<div style="position:absolute;left:72.02px;top:558.82px" class="cls_016"><span class="cls_016">all your contract needs calls for</span></div>
+<div style="position:absolute;left:72.02px;top:572.02px" class="cls_016"><span class="cls_016">thorough due diligence.  You</span></div>
+<div style="position:absolute;left:72.02px;top:585.22px" class="cls_016"><span class="cls_016">should consider the vendor’s</span></div>
+<div style="position:absolute;left:72.02px;top:598.42px" class="cls_016"><span class="cls_016">overall market viability and</span></div>
+<div style="position:absolute;left:72.02px;top:611.62px" class="cls_016"><span class="cls_016">experience in this evaluation.</span></div>
+<div style="position:absolute;left:72.02px;top:624.82px" class="cls_016"><span class="cls_016">Customers need to ask</span></div>
+<div style="position:absolute;left:72.02px;top:638.02px" class="cls_016"><span class="cls_016">themselves key questions:</span></div>
+<div style="position:absolute;left:90.02px;top:665.14px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   How long has this vendor been in business?</span></div>
+<div style="position:absolute;left:108.02px;top:678.34px" class="cls_016"><span class="cls_016">Dell has a proven track record of outstanding product and service delivery since 1984.</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">8 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:6416px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background09.jpg" width=612 height=792></div>
+<div style="position:absolute;left:90.02px;top:104.06px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   How long will they continue to stay in this business?</span></div>
+<div style="position:absolute;left:108.02px;top:117.26px" class="cls_016"><span class="cls_016">Dell is committed to supporting your laptops, desktops- ours, yours, or almost any</span></div>
+<div style="position:absolute;left:108.02px;top:130.46px" class="cls_016"><span class="cls_016">vendor systems -from the desktop to the data center—to help your business run now</span></div>
+<div style="position:absolute;left:108.02px;top:143.66px" class="cls_016"><span class="cls_016">and grow tomorrow.</span></div>
+<div style="position:absolute;left:90.02px;top:170.90px" class="cls_028"><span class="cls_028"></span><span class="cls_029"> </span><span class="cls_016">  What is the expertise of the vendor I am choosing?</span></div>
+<div style="position:absolute;left:108.02px;top:185.06px" class="cls_016"><span class="cls_016">Dell holds a long</span><span class="cls_030">-</span><span class="cls_016">term record for desktop value. (Desktops: Corporate IT Buying</span></div>
+<div style="position:absolute;left:108.02px;top:198.26px" class="cls_016"><span class="cls_016">Behavior & Customer Satisfaction Study Second Quarter 2011, Technology Business</span></div>
+<div style="position:absolute;left:108.02px;top:211.46px" class="cls_016"><span class="cls_016">Research, September 2, 2011.)</span></div>
+<div style="position:absolute;left:90.02px;top:239.81px" class="cls_017"><span class="cls_017"></span><span class="cls_016">   Does my vendor have capability worldwide so it can grow with my business?</span></div>
+<div style="position:absolute;left:108.02px;top:253.01px" class="cls_016"><span class="cls_016">Dell is a worldwide organization with current business in 100 countries and coverage</span></div>
+<div style="position:absolute;left:108.02px;top:266.21px" class="cls_016"><span class="cls_016">in up to 41 languages.</span></div>
+<div style="position:absolute;left:72.02px;top:292.61px" class="cls_016"><span class="cls_016">With Dell Multivendor Hardware Support, you can stay current with new products and</span></div>
+<div style="position:absolute;left:72.02px;top:305.81px" class="cls_016"><span class="cls_016">current technology enhancement and help you implement innovation when and as</span></div>
+<div style="position:absolute;left:72.02px;top:319.01px" class="cls_016"><span class="cls_016">technology changes.</span></div>
+<div style="position:absolute;left:72.02px;top:394.75px" class="cls_015"><span class="cls_015">Conclusion</span></div>
+<div style="position:absolute;left:72.02px;top:414.19px" class="cls_029"><span class="cls_029">With Dell Multivendor Hardware Support you get:</span></div>
+<div style="position:absolute;left:90.02px;top:431.59px" class="cls_028"><span class="cls_028"></span><span class="cls_029">   A single point of accountability - a vendor who knows you and your entire</span></div>
+<div style="position:absolute;left:108.02px;top:448.15px" class="cls_029"><span class="cls_029">environment, helping you turn downtime to uptime, getting you quick t</span></div>
+<div style="position:absolute;left:108.02px;top:464.71px" class="cls_029"><span class="cls_029">resolution of IT issues.</span></div>
+<div style="position:absolute;left:90.02px;top:482.11px" class="cls_028"><span class="cls_028"></span><span class="cls_029">   A partner that is fully vested in your successful outcome, helping you</span></div>
+<div style="position:absolute;left:108.02px;top:498.55px" class="cls_029"><span class="cls_029">anticipate technical issues before they emerge, replacing escalations with</span></div>
+<div style="position:absolute;left:108.02px;top:515.11px" class="cls_029"><span class="cls_029">customer satisfaction.</span></div>
+<div style="position:absolute;left:72.02px;top:548.23px" class="cls_029"><span class="cls_029">With Dell, you get a vendor that brings you the right support for mixed environments,</span></div>
+<div style="position:absolute;left:72.02px;top:564.82px" class="cls_029"><span class="cls_029">ensuring that your support issues are quickly turned from problems into resolutions,</span></div>
+<div style="position:absolute;left:72.02px;top:581.38px" class="cls_029"><span class="cls_029">helping you conquer the complexity you now face to help you set the stage for</span></div>
+<div style="position:absolute;left:72.02px;top:597.94px" class="cls_029"><span class="cls_029">greater growth and innovation.</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">9 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:7218px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="874d01f8-051d-11ea-9d71-0cc47a792c0a_id_874d01f8-051d-11ea-9d71-0cc47a792c0a_files/background10.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:103.10px" class="cls_031"><span class="cls_031">Contact Dell Today</span></div>
+<div style="position:absolute;left:72.02px;top:123.02px" class="cls_016"><span class="cls_016">For additional information on Dell Multivendor Hardware Support, call an account</span></div>
+<div style="position:absolute;left:72.02px;top:138.14px" class="cls_016"><span class="cls_016">representative today at 1-877-277-9721 to learn more.</span></div>
+<div style="position:absolute;left:72.02px;top:163.34px" class="cls_034"><span class="cls_034"> </span><A HREF="http://www.dell.com/business/MultiVendorSupport">www.Dell.com/business/MultiVendorSupport</A> </div>
+<div style="position:absolute;left:72.02px;top:616.66px" class="cls_012"><span class="cls_012">Availability varies by country.  To learn more, customers and Dell Channel Partners should contact your sales representative for more information.  *Dell ProSupport:</span></div>
+<div style="position:absolute;left:72.02px;top:623.86px" class="cls_012"><span class="cls_012">Availability and terms of Dell Services vary by region. For more information, visit </span><span class="cls_035">www.dell.com/servicedescriptions</span><span class="cls_012">. 24/7 support available in English only in some regions.</span></div>
+<div style="position:absolute;left:72.02px;top:638.26px" class="cls_012"><span class="cls_012">© 2010 Dell Inc. All rights reserved. Microsoft, and Microsoft Windows are registered trademarks of Microsoft Corporation in the United States and other countries.</span></div>
+<div style="position:absolute;left:72.02px;top:645.46px" class="cls_012"><span class="cls_012">Trademarks and trade names may be used in this document to refer to either the entities claiming the marks and names or their products. Specifications are correct at date</span></div>
+<div style="position:absolute;left:72.02px;top:652.66px" class="cls_012"><span class="cls_012">of publication but are subject to availability or change without notice at any time. Dell and its affiliates cannot be responsible for errors or omissions in typography or</span></div>
+<div style="position:absolute;left:72.02px;top:659.86px" class="cls_012"><span class="cls_012">photography.  Dell’s Terms and Conditions of Sales and Service apply and are available on request. Dell service offerings do not affect consumer’s statutory rights.</span></div>
+<div style="position:absolute;left:72.02px;top:667.06px" class="cls_012"><span class="cls_012">Specifications are correct at date of publication but are subject to availability or change without notice at any time. Dell and its affiliates cannot be responsible for errors or</span></div>
+<div style="position:absolute;left:72.02px;top:674.26px" class="cls_012"><span class="cls_012">omissions in typography or photography. Dell’s Terms and Conditions of Sales and Service apply and are available on request. Dell Service offerings do not affect</span></div>
+<div style="position:absolute;left:72.02px;top:681.46px" class="cls_012"><span class="cls_012">consumer’s statutory rights. Dell, the Dell logo, and ProSupport are trademarks of Dell Inc. Other trademarks and trade names may be used in this document to refer to</span></div>
+<div style="position:absolute;left:72.02px;top:688.66px" class="cls_012"><span class="cls_012">either the entities claiming the marks and names or their products. Dell disclaims proprietary interest in the marks and names of others. © 2011 Dell Inc. All rights reserved.</span></div>
+<div style="position:absolute;left:72.02px;top:695.86px" class="cls_012"><span class="cls_012">October 2011 | SupportServ_MultivendorSupport_</span></div>
+<div style="position:absolute;left:72.02px;top:751.32px" class="cls_011"><span class="cls_011">10 </span><span class="cls_012">Rev. 1.0, G11003312, Sep 2011</span></div>
+</div>
+
+</body>
+</html>
